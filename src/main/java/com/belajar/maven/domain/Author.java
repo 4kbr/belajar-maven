@@ -3,6 +3,7 @@ package com.belajar.maven.domain;
 public class Author {
   private Long id;
   private String name;
+  private Long birthDate;
 
   public Long getId() {
     return id;
@@ -28,5 +29,4 @@ public class Author {
     this.birthDate = birthDate;
   }
 
-  private Long birthDate;
 }
